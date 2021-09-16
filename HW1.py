@@ -13,32 +13,29 @@ print("end -----------------next exercise")
 a = 'how is the day today'
 print(a.count(' '))
 
-print("end -----------------next exercise")
+print("end -----------------next exercise 3")
 # 3 посчитать количество '.' в строке
 a='Hi. Today. How. do. you. do. FINE.'
 print(a.count('.'))
 
-print("end -----------------next exercise")
+print("end -----------------next exercise 4")
 #4 Создать строку Homework, преобразовать в строку с 100 символами, посередени-Homework, по сторонам - пробелы.
 # Посчитать общую длинну.
 a='Homework'
-b=' '
-print(len(a))
-print((100-len(a))/2)
-x=(46*b+a+b*46)
+x=a.center(100,' ')
 print(x)
 print(len(x))
 
-print("end -----------------next exercise")
+print("end -----------------next exercise 5")
 
 # 5 Сделать первые буквы слов строки большими (upper case)
 a='hi, infopulse, i am studing python with you'
 print(a.title())
-print("end -----------------next exercise")
+print("end -----------------next exercise 6")
 
 # 6 Определить заканчивается ли строка подстрокой "ing"
 print('ing' in 'hi, infopulse, i am studing python with you')
-print("end -----------------next exercise")
+print("end -----------------next exercise 7")
 
 # 7 Определить индекс первого вхождения символа "а" в сттроке
 a='Hi, today. How do you do? FINE!'
