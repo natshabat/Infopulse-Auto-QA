@@ -1,23 +1,28 @@
 
-def printing_deliting_from_min_to_max(a):
-    while(a):
+def printing_deleting_from_min_to_max(a):
+    while a:
         print(a)
         a.remove(min(a))
 
-printing_deliting_from_min_to_max(a=[9,4,77,9])
+
+printing_deleting_from_min_to_max(a=[9, 4, 7, 9])
 
 
 def is_year_leap(a):
     if a % 4 == 0 and a % 100 != 0 or a % 400 == 0:
-        print('True')
+        return'True'
     else:
-        print('False')
-is_year_leap(2004)
+        return'False'
 
 
-def existing_triangle(a,b,c):
+print(is_year_leap(2004))
+
+
+def existing_triangle(a, b, c):
     if a + b > c and a + c > b and b + c > a:
-        print('True')
+        return'True'
     else:
-        print('False')
-existing_triangle(2,1,4)
+        return'False'
+
+
+print(existing_triangle(5, 2, 4))
